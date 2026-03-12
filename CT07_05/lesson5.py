@@ -133,18 +133,30 @@
 # 3. Calculate who is the winner of the fight between these 2
 #    pokemons
 #    (pokemon with the higher power will always win)
-# 
+# import random
 # pokemons = ["Pikachu", "Charizard", "Bulbasaur", "Squirtle",
 # "Jigglypuff", "Meowth", "Psyduck", "Eevee", "Snorlax",
 # "Mewtwo", "Lapras", "Gengar", "Dragonite", "Machamp",
 # "Arcanine", "Alakazam", "Gyarados", "Vaporeon", "Scyther","Electabuzz"]
-# 
+# pokemon1 = random.choice(pokemons)
+# pokemon2 = random.choice(pokemons)
+# print(pokemon1, pokemon2)
+# pokemon1_index = pokemons.index(pokemon1)
+# pokemon2_index = pokemons.index(pokemon2)
+# print(pokemon1_index, pokemon2_index)
 # powers = [
 #     55, 84, 49, 48, 45,
 #     45, 52, 55, 110, 110,
 #     85, 65, 134, 130, 110,
 #     50, 125, 65, 110, 83
 # ]
-
-
+# pokemon1_powers = powers[pokemon1_index]
+# pokemon2_powers = powers[pokemon2_index]
+# print(pokemon1_powers, pokemon2_powers)
+# if pokemon1_powers > pokemon2_powers:
+#     print(pokemon1 + " wins")
+# elif pokemon2_powers > pokemon1_powers:
+#     print(pokemon2 + " wins")
+# else:
+#     print("It is a tie between " + pokemon1 + " and " + pokemon2)
 # Hint: import the random library and use random.choice(listname)
