@@ -67,9 +67,9 @@ FPS = 30
 # These values are used to create
 # the output video file name.
 
-CLASS = "CT06"
-DAY = "WED"
-TIME = "1500"
+CLASS = "CT07"
+DAY = "SUN"
+TIME = "1600"
 STUDENT_NAME = "Elijah Chua"
 
 
